@@ -1,0 +1,14 @@
+.div-daily {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding-top: 10%;
+}
+
+.button-daily {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

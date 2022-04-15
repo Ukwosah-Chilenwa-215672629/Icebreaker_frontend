@@ -1,0 +1,41 @@
+.container-profile {
+  text-align: center;
+  width: 80%;
+  height: fit-content;
+  left: 25%;
+  right: 25%;
+}
+
+.div-city {
+  display: 'flex;';
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-item {
+  display: 'flex';
+  flex-direction: 'column';
+}
+
+fieldset {
+  overflow: hidden;
+}
+
+.some-class {
+  float: left;
+  clear: none;
+}
+
+label {
+  float: left;
+  clear: none;
+  display: flex;
+  padding: 1px 4em 1.75em 1.8em;
+}
+
+input[type='radio'],
+input.radio {
+  float: left;
+  clear: none;
+  margin: 2px 0 0 2px;
+}

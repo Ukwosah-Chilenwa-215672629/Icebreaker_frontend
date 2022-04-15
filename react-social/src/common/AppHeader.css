@@ -1,0 +1,100 @@
+.app-header {
+  font-family: 'Nunito';
+  height: 65px;
+  position: relative;
+  z-index: 10;
+  background: fixed;
+
+  margin: top 0;
+  padding-left: 0;
+  padding-right: 0;
+  /* background: linear-gradient(90deg, 	rgb(177, 114, 177) 0%, rgb(128, 29, 128) 100%); */
+  background: linear-gradient(
+    90deg,
+    rgba(251, 250, 255, 1) 29%,
+    rgba(49, 132, 219, 1) 65%,
+    rgba(12, 119, 115, 1) 100%
+  );
+}
+
+.app-title {
+  line-height: 60px;
+  vertical-align: middle;
+  font-size: 2.1em;
+  position: sticky;
+}
+
+.app-branding {
+  float: left;
+}
+.color-text {
+  color: #3184db;
+}
+
+.app-options {
+  float: right;
+  position: sticky;
+  font-size: 1.25em;
+  overflow: hidden;
+}
+.color-text {
+  color: '#e699ff';
+}
+
+.app-nav ul {
+  list-style-position: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  color: beige;
+}
+
+.app-nav ul li a {
+  display: inline-block;
+  line-height: 60px;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+}
+
+.app-nav ul li a:hover {
+  color: #0f96f6;
+}
+
+.app-nav ul li a.active {
+  color: #0f96f6;
+}
+.btn-styl {
+  display: inline-block;
+  background-color: #3184db;
+  /* border-radius: 5px; */
+  /* border: 4px double #cccccc; */
+  border: 4px;
+  border-radius: 25px;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Nunito';
+  padding: 10px;
+  width: 100px;
+  /* -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s; */
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.logo {
+  max-width: 100%;
+  height: 35px;
+  /* padding-top: 15px; */
+  /* padding: auto; */
+  vertical-align: middle;
+  margin-right: auto;
+  margin-left: 0;
+  display: inline-flexbox;
+}

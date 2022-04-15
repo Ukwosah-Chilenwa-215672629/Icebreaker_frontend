@@ -1,0 +1,302 @@
+body {
+  font-family: nunito;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: nunito;
+}
+
+.col {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.row .column-img span {
+  display: inline-block;
+}
+
+.column-img ul {
+  list-style-type: none;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.img-icon {
+  /*
+    padding-right:1vh;
+    height:80px;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 2px solid #282828;
+    object-fit: contain;
+    
+    */
+  height: 80px;
+  width: 80px;
+  vertical-align: middle;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 2px solid #282828;
+  margin: 10px;
+
+  /*
+    content: "";
+      display: block;
+  
+      height: 50px;
+      float: right;
+      margin: 0 6px 0 0;
+     */
+}
+
+.cell h1 {
+  text-align: center;
+
+  text-transform: uppercase;
+
+  justify-content: center;
+
+  margin: 1px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.container-center h2 {
+  color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+
+  text-transform: uppercase;
+}
+
+.column-img h2 {
+  color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+}
+.text-area {
+  height: 170px;
+}
+
+/* Style inputs */
+input[type='text'],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.contact-back {
+  /* background-color:rgb(139, 104, 123); */
+  border: 1px solid rgb(153, 88, 139);
+}
+input[type='submit'] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+h2 {
+  color: #282828;
+}
+input[type='submit']:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container-cs {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  /*   padding: 10px; */
+  background: #fff;
+  padding-top: 20;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.column-img {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.column-img h2 {
+  margin-top: 1px;
+  text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+  .column,
+  .column-img {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 5px;
+}
+
+.column form .form-group {
+  display: flex;
+  border-radius: px;
+  justify-content: flex-start;
+
+  flex-direction: column;
+  flex: 0 1 100%;
+  padding-right: 40px;
+}
+
+.column form .form-group input[type='text'],
+input[type='email'],
+textarea {
+  border: none;
+  border: 1px solid #bc97cc;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #0c0c0c;
+  font: nunito;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 2rem;
+}
+
+.column form .col .form-group .solo {
+  padding: 0;
+}
+
+.column form .form-group button {
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+
+  border: none;
+  text-transform: uppercase;
+  border-radius: 100px;
+}
+
+.column form .form-group input[type='text']:focus,
+input[type='email']:focus,
+textarea:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #282828;
+}
+
+textarea {
+  width: 35rem;
+  height: 150px;
+}
+
+/* CSS */
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: rgb(177, 114, 177);
+
+  border-radius: 50px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: nunito;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: #f6f9fe;
+  color: #bc97cc;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%),
+    0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid #bc97cc;
+}
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 2px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 4px 4px 0,
+    rgba(60, 64, 67, 0.15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
+}

@@ -1,0 +1,47 @@
+.circle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.balls{
+    display: flex;
+}
+
+.b1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 10px;
+
+    animation: ball .5s ease infinite alternate;
+
+}
+
+.b2{
+    animation-delay: 0.1s;
+}
+
+.b3{
+    animation-delay: 0.2s;
+}
+
+@keyframes ball {
+    to{
+        transform: translateY(-10px);
+    }
+}
+
+.customText{
+    font-weight: 100;
+}

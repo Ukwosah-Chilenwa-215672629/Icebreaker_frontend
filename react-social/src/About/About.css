@@ -1,0 +1,173 @@
+/* Pattern styles */
+.about-container {
+  display: flex;
+  font-family: 'Nunito';
+  background-color: #2098f3;
+}
+
+.left-half {
+  background-color: #2098f3;
+
+  flex: 1;
+  padding: 1rem;
+}
+
+.right-half {
+  background-color: white;
+  flex: 1;
+  padding: 1rem;
+}
+
+.leftbox {
+  padding-left: 10%;
+}
+
+.about-container2 {
+  font-family: 'Nunito';
+  text-align: center;
+  max-width: 100%;
+  max-height: 50%;
+  overflow: auto;
+  position: relative;
+  margin-top: 0%;
+  background-color: rgb(255, 255, 255);
+}
+
+.home_image {
+  max-width: 100%;
+  height: 40rem;
+  position: relative;
+  min-height: 40rem;
+  float: left;
+  width: max-content;
+  height: 10rem;
+  margin: 0.55rem 0.55rem 0.55rem 18.5rem;
+}
+
+
+
+.home_image2 {
+  max-width: 100%;
+  height: 40rem;
+  position: relative;
+  min-height: 40rem;
+  float: none;
+  width: max-content;
+  height: 8rem;
+  margin: 0.55rem 0.55rem 0.55rem 18.5rem;
+}
+
+.home_image5 {
+  max-width: 80%;
+  height: 20rem;
+  position: relative;
+  min-height: 20rem;
+  float: left;
+  width: max-content;
+  height: 8rem;
+  margin: 0.55rem 0.55rem 0.55rem 18.5rem;
+}
+
+.home_image7 {
+  max-width: 80%;
+  height: 25rem;
+  position: relative;
+  min-height: 25rem;
+  float: none;
+  width: max-content;
+  margin: 0.55rem 0.55rem 0.55rem 18.5rem;
+}
+
+.home_image6 {
+  max-width: 80%;
+  height: 20rem;
+  position: relative;
+  min-height: 20rem;
+  float: left;
+  width: max-content;
+  height: 8rem;
+  margin: 0.55rem 0.55rem 0.55rem 18.5rem;
+}
+
+.home_image3 {
+  max-width: 80%;
+  height: 30rem;
+  position: relative;
+  min-height: 30rem;
+  float: left;
+  width: max-content;
+  height: 10rem;
+  margin: 0.55rem 0.55rem 0.55rem 18.5rem;
+}
+
+.home_image4 {
+  max-width: 80%;
+  height: 30rem;
+  position: relative;
+  min-height: 30rem;
+  float: left;
+  width: max-content;
+  height: 10rem;
+  margin: 0.55rem 0.55rem 0.55rem 18.5rem;
+}
+
+.your-centered-div {
+  width: 560px; /* you have to have a size or this method doesn't work */
+  height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
+
+  position: absolute; /* positions out of the flow, but according to the nearest parent */
+  top: 0; right: 0; /* confuse it i guess */
+  bottom: 0; left: 0;
+  margin: auto; /* make em equal */
+}
+
+.about-subtitle {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: centre;
+  font-size: 20px;
+}
+
+.about-subtitle2 {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: centre;
+  font-size: 20px;
+}
+
+.about-box {
+  padding: 0.75em;
+  margin-bottom: 100px;
+}
+
+.about-box2 {
+  padding: 0.75em;
+  margin-bottom: 100px;
+}
+
+.img-about {
+  width: 50%; /*image width*/
+  float: left; /*image position*/
+}
+
+.img-about1 {
+  width: 50%; /*image width*/
+  float: right; /*image position*/
+}
+.p-about {
+  width: 50%;
+  float: right;
+  font-size: 50px;
+}
+
+.p-about2 {
+  width: 50%;
+  float: left;
+  font-size: 50px;
+}
+
+.p-normal {
+  width: 50%;
+  float: right;
+  font-size: 14px;
+}

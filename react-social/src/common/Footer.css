@@ -1,0 +1,12 @@
+.footer {
+  margin: 0;
+  max-width: 100%;
+}
+
+.foot-text {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 500;
+  font-style: italic;
+  color: rgb(182, 182, 182);
+}

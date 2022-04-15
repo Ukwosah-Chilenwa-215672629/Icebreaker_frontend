@@ -1,0 +1,226 @@
+
+#container{
+	width:1000px;
+	height:auto;
+	background:#ffffff;
+	margin:0 auto;
+    margin-top:10px;
+    margin-bottom: 30px;
+	font-size:0;
+	border-radius:5px;
+	overflow:hidden;
+}
+aside{
+	width:350px;
+	height:auto;
+	background-color: #2098f3;
+	
+	display:inline-block;
+	font-size:15px;
+	vertical-align:top;
+}
+main{
+	width:650px;
+	height:auto;
+	display:inline-block;
+	font-size:15px;
+	vertical-align:top;
+	
+	
+}
+
+aside header{
+	padding:30px 20px;
+}
+aside input{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	padding:0 50px 0 20px;
+	background-color: #80bfff;
+	border:none;
+	border-radius:3px;
+	
+	color:#fff;
+	background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1940306/ico_search.png);
+	background-repeat:no-repeat;
+	background-position:260px;
+	background-size:40px;
+}
+aside input::placeholder{
+	color:#fff;
+}
+aside ul{
+	padding-left:0;
+	margin:0;
+	list-style-type:none;
+	overflow-y:scroll;
+	height:690px;
+}
+
+main header{
+
+	
+	background-color:#FDFDFD;
+	border:10px solid #F0F0F0;
+	
+}
+
+
+
+/*
+main header > *{
+	display:inline-block;
+	
+}
+main header img:first-child{
+	border-radius:50%;
+	vertical-align:baseline;
+}
+main header img:last-child{
+	max-width: 100%;
+  height: 35px;
+
+
+  
+  float:right;
+}
+main header div{
+	margin-left:10px;
+	margin-right:145px;
+}
+main header h2{
+	font-size:16px;
+	margin-bottom:5px;
+}
+main header h3{
+	font-size:14px;
+	font-weight:normal;
+	color:#7e818a;
+}
+*/
+#chat{
+	padding-left:0;
+	margin:0;
+	list-style-type:none;
+	overflow-y:scroll;
+	height:535px;
+	
+	border-top:2px solid #F0F0F0;
+	border-bottom:2px solid #F0F0F0;
+}
+#chat li{
+	padding:10px 30px;
+}
+
+
+.Chatlogo {
+	max-width: 100%;
+	height: 35px;
+	/* padding-top: 15px; */
+	/* padding: auto; */
+	/* vertical-align: middle;
+	margin-right: auto;
+	margin-left: 0;
+	display: inline-flexbox;
+	float: right;*/
+	padding-left:150px; 
+  }
+
+main footer{
+	height:155px;
+	padding:20px 30px 10px 20px;
+	border-left:10px solid #F0F0F0;
+	border-right:10px solid #F0F0F0;
+}
+main footer textarea{
+	resize:none;
+	border:none;
+	display:block;
+	width:100%;
+	height:80px;
+	border-radius:3px;
+	padding:20px;
+	font-size:13px;
+	margin-bottom:13px;
+	background-color:#F0F0F0;
+}
+main footer textarea::placeholder{
+	color:	#A9A9A9;
+}
+main footer img{
+	height:30px;
+	cursor:pointer;
+}
+main footer a{
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#6fbced;
+	vertical-align:top;
+	margin-left:500px;
+	margin-top:5px;
+	display:inline-block;
+}
+
+#headerImg{
+	
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		object-fit: cover;
+		margin-right: 20px;
+		
+
+}
+.box {
+	text-align: left;
+	border: black ridge 1px;
+	border-radius: 10px;
+	margin: 3px;
+	width: 20rem;
+	padding-left: 10px;
+	background-color: white;
+
+  }
+  ::-webkit-scrollbar {
+	width: 20px;
+  }
+
+  ::-webkit-scrollbar-track {
+	background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+	background-color: #d6dee1;
+	border-radius: 20px;
+	border: 6px solid transparent;
+	background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+	background-color: #a8bbbf;
+  }
+  .iceBreakerDiv{
+	  /* display: inline-block;
+	  justify-content: center; */
+	  display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		/* grid-gap: 2x; */
+	
+  }
+  .rightDiv p{
+	  /* display: inline-block; */
+	  padding-left: 0%;
+  } 
+	 /* /* border-bottom: 100px solid white;  }
+
+
+.leftDiv{
+padding: 0%;	
+} */
+
+
+
+
+
+
+  
