@@ -5,8 +5,7 @@ import AWS from 'aws-sdk';
 
 function myCtrl($scope, $timeout) {
   AWS.config.update({
-    accessKeyId: 'AKIA6I3AYWB5IO4JYEHS',
-    secretAccessKey: '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',
+   
   });
   AWS.config.region = 'us-east-1';
 
