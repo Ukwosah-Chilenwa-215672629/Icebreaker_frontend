@@ -1,2 +1,2 @@
 # iceBreaker_frontend
-![](Iceimage/profile.jpeg
+![](IceImage/profile.jpeg
